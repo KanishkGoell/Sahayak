@@ -1,0 +1,12 @@
+com.example.flutter_sms-jetified-window-java-1.0.0-beta04-0 /Users/kanishk/.gradle/caches/transforms-3/006d93cd422dbc43e89591147c2de572/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.flutter_sms-core-1.6.0-1 /Users/kanishk/.gradle/caches/transforms-3/4ca28c4a71705f8a687c69dda140a277/transformed/core-1.6.0/res
+com.example.flutter_sms-jetified-annotation-experimental-1.1.0-2 /Users/kanishk/.gradle/caches/transforms-3/8965c941cf4bee4d72541b965c7c9d39/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.flutter_sms-jetified-window-1.0.0-beta04-3 /Users/kanishk/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/res
+com.example.flutter_sms-main-4 /Users/kanishk/.pub-cache/hosted/pub.dev/flutter_sms-2.3.3/android/src/main/res
+com.example.flutter_sms-release-5 /Users/kanishk/.pub-cache/hosted/pub.dev/flutter_sms-2.3.3/android/src/release/res
+com.example.flutter_sms-pngs-6 /Users/kanishk/Downloads/my_project-master/build/flutter_sms/generated/res/pngs/release
+com.example.flutter_sms-resValues-7 /Users/kanishk/Downloads/my_project-master/build/flutter_sms/generated/res/resValues/release
+com.example.flutter_sms-rs-8 /Users/kanishk/Downloads/my_project-master/build/flutter_sms/generated/res/rs/release
+com.example.flutter_sms-mergeReleaseResources-9 /Users/kanishk/Downloads/my_project-master/build/flutter_sms/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.example.flutter_sms-mergeReleaseResources-10 /Users/kanishk/Downloads/my_project-master/build/flutter_sms/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.example.flutter_sms-merged_res-11 /Users/kanishk/Downloads/my_project-master/build/flutter_sms/intermediates/merged_res/release

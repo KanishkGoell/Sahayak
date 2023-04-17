@@ -1,0 +1,154 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.my_project"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:3:5-69
+11-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:3:22-66
+12    <uses-permission android:name="android.permission.SEND_SMS" />
+12-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+13-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+14-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+15    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+15-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+15-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+16    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+16-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+16-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+17-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+18
+19    <application
+20        android:name="android.app.Application"
+20-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:7:9-42
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.6.0] /Users/kanishk/.gradle/caches/transforms-3/4ca28c4a71705f8a687c69dda140a277/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:8:9-43
+23        android:label="my_project" >
+23-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:6:9-35
+24        <activity
+24-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:9:9-30:20
+25            android:name="com.example.my_project.MainActivity"
+25-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:11:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:15:13-163
+27            android:exported="true"
+27-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:12:13-36
+28            android:hardwareAccelerated="true"
+28-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:16:13-47
+29            android:launchMode="singleTop"
+29-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:13:13-43
+30            android:theme="@style/LaunchTheme"
+30-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:14:13-47
+31            android:windowSoftInputMode="adjustResize" >
+31-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:17:13-55
+32
+33            <!--
+34                 Specifies an Android theme to apply to this Activity as soon as
+35                 the Android process has started. This theme is visible to the user
+36                 while the Flutter UI initializes. After that, this theme continues
+37                 to determine the Window background behind the Flutter UI.
+38            -->
+39            <meta-data
+39-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:22:13-25:17
+40                android:name="io.flutter.embedding.android.NormalTheme"
+40-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:23:15-70
+41                android:resource="@style/NormalTheme" />
+41-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:24:15-52
+42
+43            <intent-filter>
+43-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:26:13-29:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:27:17-68
+44-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:27:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:28:17-76
+46-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:28:27-74
+47            </intent-filter>
+48        </activity>
+49        <!--
+50             Don't delete the meta-data below.
+51             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+52        -->
+53        <meta-data
+53-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:33:9-35:33
+54            android:name="flutterEmbedding"
+54-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:34:13-44
+55            android:value="2" />
+55-->/Users/kanishk/Downloads/my_project-master/android/app/src/main/AndroidManifest.xml:35:13-30
+56
+57        <receiver
+57-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+58            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+58-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+59            android:exported="false" />
+59-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+60        <receiver
+60-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+61            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+61-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+62            android:exported="false" />
+62-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+63        <receiver
+63-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+64            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+64-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+65            android:exported="false" >
+65-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+66            <intent-filter>
+66-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+67                <action android:name="android.intent.action.BOOT_COMPLETED" />
+67-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+67-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+68                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+68-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+68-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+69                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+69-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+69-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+70                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+70-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+70-->[:flutter_local_notifications] /Users/kanishk/Downloads/my_project-master/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+71            </intent-filter>
+72        </receiver>
+73
+74        <activity
+74-->[:url_launcher_android] /Users/kanishk/Downloads/my_project-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+75            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+75-->[:url_launcher_android] /Users/kanishk/Downloads/my_project-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+76            android:exported="false"
+76-->[:url_launcher_android] /Users/kanishk/Downloads/my_project-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+77            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+77-->[:url_launcher_android] /Users/kanishk/Downloads/my_project-master/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+78
+79        <uses-library
+79-->[androidx.window:window:1.0.0-beta04] /Users/kanishk/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+80            android:name="androidx.window.extensions"
+80-->[androidx.window:window:1.0.0-beta04] /Users/kanishk/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+81            android:required="false" />
+81-->[androidx.window:window:1.0.0-beta04] /Users/kanishk/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+82        <uses-library
+82-->[androidx.window:window:1.0.0-beta04] /Users/kanishk/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+83            android:name="androidx.window.sidecar"
+83-->[androidx.window:window:1.0.0-beta04] /Users/kanishk/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+84            android:required="false" />
+84-->[androidx.window:window:1.0.0-beta04] /Users/kanishk/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+85    </application>
+86
+87</manifest>
