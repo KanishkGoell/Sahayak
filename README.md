@@ -23,3 +23,7 @@
 - Connect your Android device to your computer via USB.
 - In the same Terminal window, enter the command flutter run to build and run the app on your connected device.
 - Alternatively, you can use the command flutter run --release to build and run a release version of the app.
+
+
+### Screenshots:
+![IMG_3667](https://user-images.githubusercontent.com/83371955/232590894-4439e95c-e3ed-4989-89d3-56f8a468a332.PNG) ![IMG_3668](https://user-images.githubusercontent.com/83371955/232590912-556034db-fa91-4667-9494-ca3884b28eaf.PNG) ![IMG_3669](https://user-images.githubusercontent.com/83371955/232590924-894eaa5b-0cbf-4e41-95ff-93cab6054c4d.PNG) ![IMG_3670](https://user-images.githubusercontent.com/83371955/232590931-5b2791ec-a47f-4a14-872e-2abe48453bb1.PNG)
