@@ -1,4 +1,4 @@
-# Sahayak: An service for the elderly
+# Sahayak: A service for the elderly
 
 ## Steps to download
 
