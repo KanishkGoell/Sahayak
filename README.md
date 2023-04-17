@@ -5,7 +5,7 @@
 ### Clone the repository:
 - Open the Terminal app on your Mac.
 - Change your current working directory to the location where you want to clone the repository.
-- Enter the following command to clone the repository: git clone https://github.com/KanishkGoell/SahayakApp.git
+- Enter the following command to clone the repository: git clone https://github.com/KanishkGoell/Sahayak.git
 
 ### Download Flutter:
 - Visit the Flutter website: https://flutter.dev/docs/get-started/install/macos
